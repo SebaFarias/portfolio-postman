@@ -34,7 +34,7 @@ app.post('/api/v1', ( req, res ) => {
 
   const mailOptions = {
     from: data.email,
-    to: 'sebastian.fariasb@usach.cl',
+    to: process.env.MY_EMAIL,
     subject: `${data.subject}`,
     html: `
       <p>${data.name}<p>
