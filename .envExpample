@@ -1,0 +1,3 @@
+NODE_ENV=development
+MY_EMAIL=yourEmail
+MY_EMAIL_PASSWORD=yourEmailPassword
