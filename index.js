@@ -37,8 +37,8 @@ app.post('/api/v1', ( req, res ) => {
     to: process.env.MY_EMAIL,
     subject: `${data.subject}`,
     html: `
-      <p>${data.name}<p>
-      <p>${data.email}<p>
+      <p>${data.name} ( ${data.email} )<p>
+      <p>dice:<p>
       <p>${data.message}<p>
     `
   }
